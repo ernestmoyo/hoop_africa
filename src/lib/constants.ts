@@ -8,6 +8,8 @@ import {
   Cpu,
   FlaskConical,
   Users,
+  Compass,
+  BarChart3,
   type LucideIcon,
 } from "lucide-react";
 
@@ -152,6 +154,57 @@ export const FOCUS_AREAS: FocusArea[] = [
   },
 ];
 
+export interface ServiceOffering {
+  id: string;
+  title: string;
+  shortTitle: string;
+  description: string;
+  icon: LucideIcon;
+  href: string;
+  color: string;
+  offerings: string[];
+}
+
+export const SERVICE_OFFERINGS: ServiceOffering[] = [
+  {
+    id: "strategic-management",
+    title: "Strategic Management",
+    shortTitle: "Strategic Management",
+    description:
+      "End-to-end strategic management services for organisations seeking clarity, direction, and measurable results.",
+    icon: Compass,
+    href: "/services/strategic-management",
+    color: "text-primary-600",
+    offerings: [
+      "Strategic Planning",
+      "Strategy Reviews",
+      "Strategy Implementation",
+      "Monitoring & Evaluation",
+      "Strategy Drivers & Levers",
+      "Strategic Oversight",
+      "Strategic Management for Non-Profit Organisations",
+      "Strategic Management for Public Sector Organisations",
+    ],
+  },
+  {
+    id: "performance-management",
+    title: "Performance Management",
+    shortTitle: "Performance Management",
+    description:
+      "Results-driven performance management systems, training, and organisational development support.",
+    icon: BarChart3,
+    href: "/services/performance-management",
+    color: "text-secondary-600",
+    offerings: [
+      "Performance Management System",
+      "Performance Management for Results",
+      "PMS Training & Development",
+      "Organisation Development",
+      "In-House Training & Support",
+    ],
+  },
+];
+
 export const IMPACT_STATS = [
   { label: "Lives Impacted", value: 10000, suffix: "+" },
   { label: "Countries", value: 3, suffix: "" },
@@ -177,6 +230,14 @@ export const NAV_ITEMS = [
     children: FOCUS_AREAS.map((area) => ({
       label: area.shortTitle,
       href: area.href,
+    })),
+  },
+  {
+    label: "Services",
+    href: "/services",
+    children: SERVICE_OFFERINGS.map((service) => ({
+      label: service.shortTitle,
+      href: service.href,
     })),
   },
   {
