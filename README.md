@@ -1,36 +1,50 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Hoop Africa Foundation
 
-## Getting Started
+**Unlocking Africa's Human Capital**
 
-First, run the development server:
+Hoop Africa Foundation is an African-founded, African-led non-profit organisation dedicated to supporting and addressing neglected areas across the continent through strategic management, research, innovation, and sustainable development initiatives.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## Our Mission
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+To unlock Africa's human capital by driving systemic change across sectors that have been historically underfunded and overlooked — building local capacity, fostering innovation, and creating lasting impact from within.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## What We Do
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+We work across **nine interconnected focus areas** to drive holistic, sustainable development:
 
-## Learn More
+- **Public Health & Health Economics** — Accessible, equitable healthcare systems and health financing
+- **Education** — Quality education, skills development, and lifelong learning
+- **Agriculture** — Sustainable farming, food security, and value-chain development
+- **Climate Action** — Climate resilience, green technologies, and environmental protection
+- **Energy Access** — Affordable, reliable, sustainable energy for African communities
+- **Poverty Reduction** — Income equality, job creation, and economic empowerment
+- **Emerging Technologies & AI** — Applied AI, data science, and automation for African challenges
+- **Research & Development** — Evidence-based solutions, policy development, and impact measurement
+- **Social & Economic Empowerment** — Youth empowerment, gender equity, and inclusive community development
 
-To learn more about Next.js, take a look at the following resources:
+## Where We Work
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+We currently operate in three countries:
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+- **Namibia** (Windhoek) — Where we were founded
+- **Tanzania** (Dar es Salaam) — Registered headquarters
+- **DR Congo** (Kinshasa) — Expanding reach in Central Africa
 
-## Deploy on Vercel
+## Get Involved
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+- **Donate** — Support our programs directly at [www.hoopafrica.org/get-involved/donate](https://www.hoopafrica.org/get-involved/donate)
+- **Partner** — Corporate, NGO, government, and academic partnerships welcome
+- **Volunteer** — Contribute your skills and expertise
+- **Careers** — Join our growing team across the continent
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## Contact
+
+- **Website:** [www.hoopafrica.org](https://www.hoopafrica.org)
+- **Namibia:** +264 81 302 2416
+- **Tanzania:** +255 755 731 262
+- **DR Congo:** +243 829 494 537
+
+---
+
+*Registered in Tanzania (Section 21) | Reg No: 21/2022/1459*
+*Aligned with AU Agenda 2063 & UN Sustainable Development Goals*
