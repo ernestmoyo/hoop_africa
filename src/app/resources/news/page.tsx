@@ -54,7 +54,7 @@ const newsArticles = [
   {
     title: "Annual Report 2025: A Year of Growth and Impact",
     excerpt:
-      "Reflecting on a transformative year as we expanded operations across three countries and launched nine focus area programs.",
+      "Reflecting on a transformative year as we expanded operations across three countries and launched focus area programs.",
     date: "2025-11-05",
     readTime: "6 min read",
     category: "Reports",

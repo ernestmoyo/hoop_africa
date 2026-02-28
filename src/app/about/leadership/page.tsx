@@ -41,7 +41,7 @@ const executiveTeam: TeamMember[] = [
     name: "Coming Soon",
     title: "Deputy Director — Programs",
     location: "Windhoek, Namibia",
-    bio: "Overseeing all nine focus area programs, the Deputy Director ensures that initiatives are well-coordinated, evidence-based, and delivering measurable outcomes for communities.",
+    bio: "Overseeing all focus area programs, the Deputy Director ensures that initiatives are well-coordinated, evidence-based, and delivering measurable outcomes for communities.",
     focus: ["Program Management", "Impact Measurement", "Innovation"],
   },
   {

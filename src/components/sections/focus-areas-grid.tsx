@@ -17,7 +17,7 @@ export function FocusAreasGrid() {
       <Container>
         <SectionHeading
           title="Our Focus Areas"
-          subtitle="We address Africa's most pressing challenges across nine interconnected sectors, creating holistic and sustainable impact."
+          subtitle="We address Africa's most pressing challenges across interconnected sectors, creating holistic and sustainable impact."
         />
 
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">

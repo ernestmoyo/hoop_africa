@@ -11,7 +11,7 @@ import { FOCUS_AREAS } from "@/lib/constants";
 export const metadata: Metadata = {
   title: "Our Work",
   description:
-    "Explore Hoop Africa Foundation's nine focus areas driving sustainable development across the African continent.",
+    "Explore Hoop Africa Foundation's focus areas driving sustainable development across the African continent.",
 };
 
 export default function OurWorkPage() {
@@ -26,14 +26,14 @@ export default function OurWorkPage() {
         <Container className="relative z-10">
           <div className="max-w-3xl">
             <Badge className="mb-6 bg-white/10 text-white border-white/20">
-              9 Focus Areas
+              Focus Areas
             </Badge>
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-white mb-6 leading-tight">
               Our Work Across{" "}
               <span className="text-secondary-500">Africa</span>
             </h1>
             <p className="text-lg md:text-xl text-primary-100 leading-relaxed max-w-2xl">
-              We address Africa&apos;s most pressing challenges through nine
+              We address Africa&apos;s most pressing challenges through
               interconnected focus areas, creating holistic and sustainable
               impact that unlocks the continent&apos;s vast human capital.
             </p>
@@ -50,7 +50,7 @@ export default function OurWorkPage() {
                 icon: Target,
                 title: "Strategic Focus",
                 description:
-                  "We concentrate on nine critical sectors where targeted interventions can create the greatest multiplier effect across communities.",
+                  "We concentrate on critical sectors where targeted interventions can create the greatest multiplier effect across communities.",
               },
               {
                 icon: Globe,
@@ -90,7 +90,7 @@ export default function OurWorkPage() {
       <section className="py-20 bg-white">
         <Container>
           <SectionHeading
-            title="Our Nine Focus Areas"
+            title="Our Focus Areas"
             subtitle="Each focus area represents a critical dimension of Africa's development. Together, they form a comprehensive framework for sustainable transformation."
           />
 
@@ -134,7 +134,7 @@ export default function OurWorkPage() {
               subtitle="Africa's challenges don't exist in isolation -- and neither do our solutions."
             />
             <p className="text-neutral-600 leading-relaxed mb-8">
-              Our nine focus areas are deeply interconnected. Improving education
+              Our focus areas are deeply interconnected. Improving education
               fuels innovation. Strengthening health systems boosts economic
               productivity. Sustainable energy powers agriculture. Climate action
               protects livelihoods. At Hoop Africa Foundation, we understand that

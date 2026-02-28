@@ -34,7 +34,7 @@ const ANNUAL_REPORTS = [
     coverGradient: "from-primary-600 to-primary-800",
     highlights: [
       "10,247 lives directly impacted across 3 countries",
-      "18 active programs spanning 9 focus areas",
+      "18 active programs spanning all focus areas",
       "27 community and institutional partnerships",
       "$1.2M deployed with 92% going directly to programs",
     ],

@@ -49,7 +49,7 @@ const PARTNERSHIP_TYPES = [
   {
     title: "NGO & Non-Profit Partners",
     description:
-      "Collaborate with us to extend reach, share resources, and co-implement programs across our 9 focus areas. Together, we multiply impact.",
+      "Collaborate with us to extend reach, share resources, and co-implement programs across our focus areas. Together, we multiply impact.",
     icon: Globe,
     color: "bg-accent-500",
     benefits: [

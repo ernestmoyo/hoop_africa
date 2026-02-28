@@ -400,7 +400,7 @@ export default function WhereWeWorkPage() {
                     <ArrowRight className="w-4 h-4" />
                   </h3>
                   <p className="text-neutral-600 text-sm mt-1">
-                    Discover our nine focus areas and active programs.
+                    Discover our focus areas and active programs.
                   </p>
                 </CardContent>
               </Card>

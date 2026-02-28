@@ -287,7 +287,7 @@ export default function MissionVisionPage() {
       <section className="py-20 bg-neutral-50">
         <Container>
           <SectionHeading
-            title="Mission in Action: Our Nine Focus Areas"
+            title="Mission in Action: Our Focus Areas"
             subtitle="Each focus area represents a critical dimension of human capital development."
           />
 

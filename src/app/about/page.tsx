@@ -75,7 +75,7 @@ const highlights = [
   },
   {
     icon: Heart,
-    label: "9 Focus Areas",
+    label: "Focus Areas",
     description: "Holistic approach to continental development",
   },
   {
@@ -161,7 +161,7 @@ export default function AboutPage() {
                 of the United Republic of Namibia (Reg. No: 21/2022/1459).
               </p>
               <p className="text-lg text-neutral-700 leading-relaxed mb-6">
-                Our work spans nine interconnected focus areas, from public
+                Our work spans interconnected focus areas, from public
                 health and education to emerging technologies and climate action.
                 We believe that Africa&apos;s greatest resource is its people, and
                 that by investing in human capital, we can unlock a future of

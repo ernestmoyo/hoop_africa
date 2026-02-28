@@ -95,7 +95,7 @@ export function Hero() {
             </span>
             <span className="flex items-center gap-2">
               <span className="w-2 h-2 bg-secondary-400 rounded-full" />
-              9 Focus Areas
+              Multiple Focus Areas
             </span>
             <span className="flex items-center gap-2">
               <span className="w-2 h-2 bg-primary-300 rounded-full" />

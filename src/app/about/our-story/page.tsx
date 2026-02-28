@@ -63,7 +63,7 @@ const milestones = [
     date: "2025 — Present",
     title: "Building Momentum",
     description:
-      "Programs are launched across all nine focus areas, from public health initiatives to emerging technology projects. Community partnerships deepen, and the Foundation begins to demonstrate measurable impact in the lives of ordinary Africans.",
+      "Programs are launched across all focus areas, from public health initiatives to emerging technology projects. Community partnerships deepen, and the Foundation begins to demonstrate measurable impact in the lives of ordinary Africans.",
     icon: TrendingUp,
     color: "bg-secondary-600",
   },
