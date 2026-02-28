@@ -18,9 +18,10 @@ export const SITE_DESCRIPTION =
   "Hoop Africa Foundation unlocks Africa's human capital by supporting neglected areas across the continent through strategic management, research, innovation, and sustainable development initiatives.";
 
 export const REGISTRATION_INFO = {
-  country: "Tanzania",
+  country: "Namibia",
   type: "Section 21",
   number: "21/2022/1459",
+  act: "Companies Act of the United Republic of Namibia",
 };
 
 export const CONTACTS = {

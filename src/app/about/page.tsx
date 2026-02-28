@@ -157,8 +157,8 @@ export default function AboutPage() {
                 Hoop Africa Foundation was founded on August 8, 2025, in
                 Windhoek, Namibia, with a bold ambition: to address Africa&apos;s
                 most neglected challenges through a multi-sector approach. We
-                are officially registered in Tanzania as a Section 21 non-profit
-                (Reg. No: 21/2022/1459).
+                are officially registered under Section 21 of the Companies Act
+                of the United Republic of Namibia (Reg. No: 21/2022/1459).
               </p>
               <p className="text-lg text-neutral-700 leading-relaxed mb-6">
                 Our work spans nine interconnected focus areas, from public

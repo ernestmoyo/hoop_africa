@@ -164,7 +164,7 @@ export function Footer() {
               <span>&copy; {new Date().getFullYear()} {SITE_NAME}. All rights reserved.</span>
               <span className="hidden sm:inline">|</span>
               <span>
-                Registered in {REGISTRATION_INFO.country} ({REGISTRATION_INFO.type}) | Reg No: {REGISTRATION_INFO.number}
+                Registered under {REGISTRATION_INFO.type} of the {REGISTRATION_INFO.act} | Reg No: {REGISTRATION_INFO.number}
               </span>
             </div>
             <div className="flex items-center gap-4 text-xs">

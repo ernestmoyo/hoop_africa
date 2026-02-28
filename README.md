@@ -46,5 +46,5 @@ We currently operate in three countries:
 
 ---
 
-*Registered in Tanzania (Section 21) | Reg No: 21/2022/1459*
+*Registered under Section 21 of the Companies Act of the United Republic of Namibia | Reg No: 21/2022/1459*
 *Aligned with AU Agenda 2063 & UN Sustainable Development Goals*

@@ -81,8 +81,9 @@ export default function TermsOfUsePage() {
                 1. About Hoop Africa Foundation
               </h2>
               <p className="text-neutral-600">
-                {SITE_NAME} is a non-profit organization registered in Tanzania
-                under Section 21 (Registration Number: 21/2022/1459). The
+                {SITE_NAME} is a non-profit organization registered under
+                Section 21 of the Companies Act of the United Republic of Namibia
+                (Registration Number: 21/2022/1459). The
                 organization was founded on August 8, 2025, in Windhoek,
                 Namibia. We operate across Namibia, Tanzania, and the Democratic
                 Republic of Congo, focusing on unlocking Africa&apos;s human capital

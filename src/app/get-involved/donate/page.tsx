@@ -604,7 +604,7 @@ export default function DonatePage() {
             {[
               {
                 q: "Is my donation tax-deductible?",
-                a: "Hoop Africa Foundation is a registered non-profit organization (Section 21, Reg No: 21/2022/1459) in Tanzania. Tax deductibility depends on your country's regulations. We provide official donation receipts for all contributions.",
+                a: "Hoop Africa Foundation is a registered non-profit organization under Section 21 of the Companies Act of the United Republic of Namibia (Reg No: 21/2022/1459). Tax deductibility depends on your country's regulations. We provide official donation receipts for all contributions.",
               },
               {
                 q: "How is my donation used?",

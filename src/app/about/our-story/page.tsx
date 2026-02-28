@@ -45,9 +45,9 @@ const milestones = [
   },
   {
     date: "2025",
-    title: "Tanzania Registration",
+    title: "Official Registration",
     description:
-      "The Foundation secures official registration in Tanzania as a Section 21 non-profit organization (Reg. No: 21/2022/1459), establishing its legal headquarters in Dar es Salaam as a strategic hub for East African operations.",
+      "The Foundation secures official registration under Section 21 of the Companies Act of the United Republic of Namibia (Reg. No: 21/2022/1459), establishing its legal foundation in Windhoek.",
     icon: Star,
     color: "bg-accent-500",
   },

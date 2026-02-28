@@ -70,7 +70,7 @@ const constitutionHighlights = [
   {
     title: "Legal Name & Status",
     content:
-      "Hoop Africa Foundation is registered as a non-profit organization under Section 21 of the Tanzania Companies Act.",
+      "Hoop Africa Foundation is registered as a non-profit organization under Section 21 of the Companies Act of the United Republic of Namibia.",
   },
   {
     title: "Objects of the Foundation",
