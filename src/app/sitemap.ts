@@ -1,5 +1,5 @@
 import type { MetadataRoute } from "next";
-import { SITE_URL, FOCUS_AREAS, SERVICE_OFFERINGS } from "@/lib/constants";
+import { SITE_URL, FOCUS_AREAS } from "@/lib/constants";
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const now = new Date();
@@ -26,7 +26,6 @@ export default function sitemap(): MetadataRoute.Sitemap {
     "/resources/news",
     "/resources/publications",
     "/resources/media-kit",
-    "/services",
     "/contact",
     "/legal/privacy",
     "/legal/terms",
@@ -35,9 +34,8 @@ export default function sitemap(): MetadataRoute.Sitemap {
   ];
 
   const focusAreaPages = FOCUS_AREAS.map((area) => area.href);
-  const servicePages = SERVICE_OFFERINGS.map((service) => service.href);
 
-  const allPages = [...staticPages, ...focusAreaPages, ...servicePages];
+  const allPages = [...staticPages, ...focusAreaPages];
 
   return allPages.map((path) => ({
     url: `${SITE_URL}${path}`,
