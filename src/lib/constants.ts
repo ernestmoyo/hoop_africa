@@ -25,6 +25,8 @@ export const REGISTRATION_INFO = {
   act: "Companies Act of the United Republic of Namibia",
 };
 
+export const EMAIL = "info@hoopafrica.org";
+
 export const CONTACTS = {
   namibia: {
     country: "Namibia",

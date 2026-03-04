@@ -17,6 +17,7 @@ import {
   CONTACTS,
   SOCIAL_LINKS,
   REGISTRATION_INFO,
+  EMAIL,
 } from "@/lib/constants";
 
 const footerLinks = {
@@ -69,6 +70,13 @@ export function Footer() {
 
             {/* Contact info */}
             <div className="space-y-3 mb-6">
+              <a
+                href={`mailto:${EMAIL}`}
+                className="flex items-center gap-2 text-sm hover:text-primary-400 transition-colors"
+              >
+                <Mail className="w-4 h-4 text-primary-400 shrink-0" />
+                <span className="font-medium text-neutral-200">{EMAIL}</span>
+              </a>
               {Object.values(CONTACTS).map((contact) => (
                 <div key={contact.country} className="flex items-center gap-2 text-sm">
                   <MapPin className="w-4 h-4 text-primary-400 shrink-0" />

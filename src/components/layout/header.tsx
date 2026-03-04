@@ -3,9 +3,9 @@
 import { useState } from "react";
 import Link from "next/link";
 import Image from "next/image";
-import { Menu, X, ChevronDown, Globe, Heart } from "lucide-react";
+import { Menu, X, ChevronDown, Globe, Heart, Mail, Phone } from "lucide-react";
 import { cn } from "@/lib/utils";
-import { NAV_ITEMS, SITE_NAME } from "@/lib/constants";
+import { NAV_ITEMS, SITE_NAME, EMAIL, CONTACTS } from "@/lib/constants";
 import { Container } from "@/components/ui/container";
 import { Button } from "@/components/ui/button";
 
@@ -18,6 +18,39 @@ export function Header() {
       <a href="#main-content" className="skip-to-content">
         Skip to main content
       </a>
+
+      {/* Top bar */}
+      <div className="bg-primary-900 text-primary-100 text-xs hidden md:block">
+        <Container>
+          <div className="flex items-center justify-between py-2">
+            <div className="flex items-center gap-4">
+              <a
+                href={`mailto:${EMAIL}`}
+                className="flex items-center gap-1.5 hover:text-white transition-colors"
+              >
+                <Mail className="w-3.5 h-3.5" />
+                {EMAIL}
+              </a>
+              <span className="text-primary-700">|</span>
+              <a
+                href={`tel:${CONTACTS.namibia.phone.replace(/\s/g, "")}`}
+                className="flex items-center gap-1.5 hover:text-white transition-colors"
+              >
+                <Phone className="w-3.5 h-3.5" />
+                {CONTACTS.namibia.phone}
+              </a>
+            </div>
+            <div className="flex items-center gap-3 text-primary-300">
+              <span>Namibia</span>
+              <span>&middot;</span>
+              <span>Tanzania</span>
+              <span>&middot;</span>
+              <span>DR Congo</span>
+            </div>
+          </div>
+        </Container>
+      </div>
+
       <header className="sticky top-0 z-50 bg-white/95 backdrop-blur-md border-b border-neutral-200">
         <Container>
           <div className="flex items-center justify-between h-20">

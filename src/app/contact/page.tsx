@@ -23,7 +23,7 @@ import { SectionHeading } from "@/components/ui/section-heading";
 import { Card, CardContent } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
-import { SITE_NAME, CONTACTS, SOCIAL_LINKS } from "@/lib/constants";
+import { SITE_NAME, CONTACTS, SOCIAL_LINKS, EMAIL } from "@/lib/constants";
 
 // export const metadata: Metadata is not used in client components
 // Metadata is exported from a separate layout or via generateMetadata
@@ -33,7 +33,7 @@ const departments = [
     value: "general",
     label: "General Inquiries",
     description: "General questions about Hoop Africa Foundation",
-    email: "info@hoopafrica.org",
+    email: EMAIL,
   },
   {
     value: "partnerships",

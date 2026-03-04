@@ -1,4 +1,4 @@
-import { SITE_NAME, SITE_URL, SITE_DESCRIPTION, REGISTRATION_INFO, SOCIAL_LINKS } from "@/lib/constants";
+import { SITE_NAME, SITE_URL, SITE_DESCRIPTION, REGISTRATION_INFO, SOCIAL_LINKS, EMAIL } from "@/lib/constants";
 
 export function OrganizationJsonLd() {
   const jsonLd = {
@@ -18,6 +18,7 @@ export function OrganizationJsonLd() {
       { "@type": "Country", name: "Democratic Republic of the Congo" },
     ],
     sameAs: Object.values(SOCIAL_LINKS),
+    email: EMAIL,
     logo: `${SITE_URL}/images/logo.png`,
     contactPoint: [
       {
